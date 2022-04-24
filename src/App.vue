@@ -1,28 +1,40 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <router-view></router-view>
   </div>
 </template>
-
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
+  created() {
+    setInterval(() => {
+      this.getTime();
+    }, 800)
+  },
+  methods: {
+    getTime() {
+      let today = new Date();
+      let week = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+      let hour = ("0"+today.getHours()).slice(-2);
+      let min = ("0"+today.getMinutes()).slice(-2);
+      let sec = ("0"+today.getSeconds()).slice(-2);
+      let day = today.getDay();
+      return this.$store.state.time = `${hour}:${min}:${sec}(${week[day]})`;
+    }
   }
 }
 </script>
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+html {
+  margin: 0;
+  padding: 0;
 }
 </style>
