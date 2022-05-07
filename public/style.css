@@ -169,3 +169,80 @@ header .container {
     display: none;
   }
 }
+
+.ttl {
+  font-size: 3.2rem;
+  text-align: center;
+  padding-top: 4em;
+  margin-bottom: 2em;
+}
+#posi {
+  position: relative;
+  z-index: 1;
+  background-color: #feffdb;
+}
+
+.posi__box__wrapper {
+  z-index: 1;
+  display: flex;
+  position: relative;
+}
+.posi__box__wrapper__02 {
+  z-index: 100;
+}
+.posi__box {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  /* border-radius: 50%; */
+  background-color: #F66;
+  color: #FFF;
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+.posi__box__01 {
+  top: -40px;
+  right: -100px;
+  z-index: 10;
+  border-radius: 50% 50% 50% 70%/50% 50% 70% 60%;
+}
+.posi__box__02 {
+  top: -100px;
+  z-index: 1000;
+  background-color: #F92;
+  border-radius: 80% 30% 50% 50%/50%;
+}
+.posi__box__03 {
+  bottom: -40px;
+  left: -60px;
+  z-index: 7;
+  background-color: #FC2;
+  border-radius: 40% 40% 50% 40%/30% 50% 50% 50%;
+}
+.posi__box__wrapper__02 {
+  margin-top: -100px;
+}
+.posi__box__04 {
+  top: -40px;
+  right: -100px;
+  z-index: 10;
+  background-color: rgb(102, 255, 145);
+  border-radius: 50% 50% 50% 70%/50% 50% 70% 60%;
+
+}
+.posi__box__05 {
+  top: -100px;
+  z-index: 8;
+  background-color: rgb(101, 238, 10);
+  border-radius: 40% 40% 50% 40%/30% 50% 50% 50%;
+}
+.posi__box__06 {
+  bottom: -40px;
+  left: -60px;
+  z-index: 7;
+  background-color: rgb(23, 243, 170);
+  border-radius: 40% 40% 50% 40%/30% 50% 50% 50%;
+}

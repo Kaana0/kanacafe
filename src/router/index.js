@@ -20,21 +20,6 @@ const routes = [
     name: 'clock',
     component: () => import('../views/ClockView.vue')
   },
-  {
-    path: '/vuex',
-    name: 'vuex',
-    component: () => import('../views/VuexComp.vue')
-  },
-  {
-    path: '/webapi',
-    name: 'webapi',
-    component: () => import('../views/WebApi.vue')
-  },
-  {
-    path: '/webapiImg',
-    name: 'webapiImg',
-    component: () => import('../views/WebApiImg.vue')
-  },
 ]
 
 const router = new VueRouter({

@@ -9,17 +9,17 @@
     </div><!-- /.copy__wrapper -->
   </section><!--mv-->
   <section id="posi">
-    <h2 class="ttl">ポジション</h2>
+    <h2 class="ttl">COFFE</h2>
     <div class="container">
       <div class="posi__box__wrapper">
-        <div class="posi__box posi__box__01">BOX1</div>
-        <div class="posi__box posi__box__02">BOX2</div>
-        <div class="posi__box posi__box__03">BOX3</div>
+        <div class="posi__box posi__box__01"></div>
+        <div class="posi__box posi__box__02"></div>
+        <div class="posi__box posi__box__03"></div>
       </div>
       <div class="posi__box__wrapper posi__box__wrapper__02">
-        <div class="posi__box posi__box__04">BOX4</div>
-        <div class="posi__box posi__box__05">BOX5</div>
-        <div class="posi__box posi__box__06">BOX6</div>
+        <div class="posi__box posi__box__04"></div>
+        <div class="posi__box posi__box__05"></div>
+        <div class="posi__box posi__box__06"></div>
       </div>
     </div>
   </section><!-- /#posi -->

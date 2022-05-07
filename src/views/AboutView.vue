@@ -1,11 +1,13 @@
 <template>
-<div id="main__wrapper">
-  <main>
-    <section id="mv">
-      <div class="copy__wrapper">
-        <h2 class="mv__ttl">About</h2>
-      </div><!-- /.copy__wrapper -->
-    </section>
-  </main>
-</div><!-- /#main__wrapper -->
+<div id="app">
+  <ul>
+    <div><img :src="require('@/assets/'+item.photo1)">{{photo1}}</div>
+    <li v-for="kouka in koukaList" :key="kouka">{{kouka}}</li>
+  </ul>
+</div>
 </template>
+<script>
+export default {
+  
+}
+</script>
